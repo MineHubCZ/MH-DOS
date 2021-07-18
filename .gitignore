@@ -1,5 +1,6 @@
-*.pyc
-*.swp
+**/*.pyc
+**/*.swp
+**/__pycache__
 
 lib/
 include/
