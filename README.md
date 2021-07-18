@@ -1,3 +1,16 @@
 # MH DOS
 
-MineHub cli
+MineHub shell for browsing MineHub webpage built in python
+Version 0.1.2
+
+# Setup
+1. Download source code:
+    `git clone https://github.com/MineHubCZ/MH-DOS.git && cd MH-DOS`
+2. Make virtual environment:
+    `python3 -m venv .`
+3. Install requirements:
+    `pip3 install -r requirements.txt`
+4. Compile:
+    `pyinstaller src/dom.py`
+5. Enjoy:
+    `dist/dos/dos`
