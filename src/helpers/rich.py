@@ -1,7 +1,7 @@
-from constants import *
+from helpers.constants import COLORS
 import re
 
-def printr(text):
+def printr(text: str):
     """
     Print rich
     ==========

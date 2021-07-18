@@ -1,0 +1,9 @@
+*.pyc
+
+lib/
+include/
+bin/
+build/
+dist/
+dos.spec
+pyvenv.cfg
