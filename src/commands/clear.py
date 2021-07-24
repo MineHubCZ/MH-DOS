@@ -1,4 +1,4 @@
-def clear():
+def clear(arguments):
     """
     Clear
     =================

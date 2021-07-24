@@ -1,0 +1,2 @@
+class NotFoundError(BaseException):
+    pass
