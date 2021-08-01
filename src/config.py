@@ -1,11 +1,11 @@
-from os.path import exists
-import getpass
+from os.path import exists, expanduser, join
 import json
 
 def config():
-    user = getpass.getuser()
 
-    path = f"/Users/{user}/.mhdosrc"
+    home = expanduser("~")
+
+    path = join(home, ".mhdosrc")
 
     if not exists(path):
         f = open(path, "w")

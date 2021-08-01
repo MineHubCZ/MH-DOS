@@ -1,2 +1,2 @@
-class NotFoundError(BaseException):
+class InternalError(BaseException):
     pass
